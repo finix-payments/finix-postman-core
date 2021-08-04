@@ -9,8 +9,8 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: "./Finix-Core-API-Collection/Finix-Core-API-Collection.postman_collection.json"
-          environment: "./Finix-Core-API-Collection/Finix-Core-API-Environment.postman_environment.json"
+          collection: "./Finix-Core-API-Collection.postman_collection.json"
+          environment: "./Finix-Core-API-Environment.postman_environment.json"
           additional-options: -r cli,junit
 
 workflows:
