@@ -16,6 +16,6 @@ Postman Collections for the Finix Core Payment Faclitation Platform
 
 ## Instructions
 
-1. Download and import the Collection file and Enviroment file using the instructions [here](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/)
+1. Clone the Git Hub Repo and import the entire folder using the Postman Import Function 
 2. Ensure you have selected the correct Environment which is included in the repository. The Enviromnent includes credentials which should work. Incase the credetials do not work, you can use the credentials found [here](https://developers.finixpayments.com/#authentication)
 3. Run the collection using the Collection Runner. Instructions can be found [here](https://learning.postman.com/docs/running-collections/intro-to-collection-runs/)
